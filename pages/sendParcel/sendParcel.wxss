@@ -1,0 +1,76 @@
+/* pages/sendParcel/sendParcel.wxss */
+.container{
+  padding: 0rpx 0;
+}
+.page-body{
+  width: 100%;
+}
+
+swiper image{
+  height: 100%;
+  width: 100%;
+}
+.page-section1 swiper{
+  height: 450rpx;
+}
+.page-section2 {
+  padding: 0 30rpx;
+  transform: translate(0,-100rpx);
+}
+.grid{
+  background: #fff;
+  border-radius: 20rpx;
+  padding: 20rpx 0;
+  margin: 30rpx 0;
+}
+.lgrid-item{
+  padding: 10rpx 5rpx;
+}
+.grid .text{
+  font-weight: bold;
+  font-size: 32rpx;
+  padding: 6rpx 6rpx;
+}
+.grid .sub-text{
+  font-size: 28rpx;
+  color: #ccc;
+}
+.item-box .left-icon{
+  padding-top: 15rpx;
+}
+.grid2{
+  padding: 10rpx 0;
+}
+.grid2 .item-box{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-self: flex-start;
+  padding: 16rpx 15rpx;
+  padding-right: 0;
+}
+.grid2 .item-box .right-item{
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  justify-content: flex-start;
+  text-align: left;
+  padding-left: 15rpx;
+  position: relative;
+}
+.grid2 .item-box .right-item .sub-text{
+  font-size: 24rpx;
+  padding-top: 10rpx;
+}
+.grid2 .item-box .right-item .title{
+  position: absolute;
+  background-color: coral;
+  padding: 6rpx 24rpx;
+  border-radius: 16rpx;
+  right: -38rpx;
+  top:-28rpx;
+  font-size: 18rpx;
+  border-bottom-left-radius: 0;
+  color: #fff;
+  
+}

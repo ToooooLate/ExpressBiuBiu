@@ -1,0 +1,45 @@
+{
+  "pages":[
+    "pages/sendParcel/sendParcel",
+    "pages/logs/logs",
+    "pages/searchParcel/searchParcel",
+    "pages/userInfo/userInfo"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#6a5ea8",
+    "navigationBarTitleText": "BiuBiu快递",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#ddd",
+    "selectedColor": "6a5ea8",
+    "borderStyle": "white",
+    "list":[{
+      "pagePath": "pages/sendParcel/sendParcel",
+      "text":"寄件",
+      "iconPath": "/asset/icon/kuaidi_.png",
+      "selectedIconPath": "/asset/icon/kuaidi_1.png"
+    },{
+      "pagePath": "pages/searchParcel/searchParcel",
+      "text": "查件",
+      "iconPath": "/asset/icon/chaxun.png",
+      "selectedIconPath": "/asset/icon/chaxun_1.png"
+    },{
+      "pagePath": "pages/userInfo/userInfo",
+      "text": "我的",
+      "iconPath": "/asset/icon/wode_1.png",
+      "selectedIconPath": "/asset/icon/wode.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "iconfont": "/iconfont/iconfont",
+    "l-button": "/miniprogram_npm/lin-ui/button/index",
+    "l-icon": "./miniprogram_npm/lin-ui/icon/index",
+    "l-toast": "./miniprogram_npm/lin-ui/toast/index",
+    "l-message": "./miniprogram_npm/lin-ui/message/index",
+    "l-grid": "./miniprogram_npm/lin-ui/grid/index",
+    "l-grid-item": "./miniprogram_npm/lin-ui/grid-item/index"
+  }
+}

@@ -1,0 +1,46 @@
+<!--pages/sendParcel/sendParcel.wxml-->
+<view class="container">
+  <view class="page-body">
+    <view class="page-section page-section1">
+      <swiper class="img-swiper" indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{swiperItem}}" wx:key="index" wx:for-item="item">
+          <swiper-item>
+            <!-- <view class="swiper-item ">{{item.text}}</view> -->
+            <image src="{{item.imgUrl}}" alt=""/>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <view class="page-section page-section2">
+      <l-grid l-class="grid" row-num="2" show-border="true" >
+        <l-grid-item l-grid-item-class="lgrid-item" key="one" slot="one">
+          <l-icon name="share" size="50" />
+          <view class="text">寄快递</view>
+          <view class="sub-text">预约上门取件</view>
+        </l-grid-item>
+        <l-grid-item l-grid-item-class="lgrid-item" key="two" slot="two">
+          <l-icon name="scan" size="50" />
+          <view class="text">扫码寄件</view>
+          <view class="sub-text">扫二维码下单</view>
+        </l-grid-item>
+      </l-grid>
+      <l-grid l-class="grid2 grid" row-num="2" show-border="true" >
+        <l-grid-item l-grid-item-class="lgrid-item"  
+        wx:for="{{gridArr}}" wx:key="index"
+        key="{{index}}" slot="{{index}}">
+          <view class="item-box">
+            <l-icon l-class="left-icon" name="{{item.iconName}}" size="60" />
+            <view class="right-item">
+              <view class="title" wx:if="{{item.title}}">{{item.title}}</view>
+              <view class="text">{{item.text}}</view>
+              <view class="sub-text">{{item.subText}}</view>
+            </view>
+          </view>
+        </l-grid-item>
+      </l-grid>
+    </view>
+  </view>
+</view>
+
+

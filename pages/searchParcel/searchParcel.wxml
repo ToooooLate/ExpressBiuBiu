@@ -1,0 +1,56 @@
+<!--pages/searchParcel/searchParcel.wxml-->
+<view class="container">
+  <view class="page-body">
+    <view class="page-section search-bar">
+      <l-search-bar placeholder="请输入快递单号" show-cancel="{{false}}" shape="circle">
+        <view slot="after" class="scan-search">
+          <iconfont name="Scan" size="50" />
+        </view>
+      </l-search-bar>
+    </view>
+    <view class="page-section segment-box">
+      <l-segment l-class="segment" >
+        <l-segment-item tab="我收的" key="one" />
+        <l-segment-item tab="我寄的" key="two" />
+        <l-segment-item tab="待取件" key="three" />
+      </l-segment>  
+    </view>
+    <view class="page-section package-content">
+      <view class="package-item">
+        <view class="item-header">
+          <text>运单号 Biu76532101342845</text>
+          <iconfont style="display: inline-block;vertical-align:middle;margin-left: 10rpx;" name="Scan" size="40" />  
+        </view>
+        <view class="item-content">
+          <view class="content-box">
+            <l-grid>
+                <l-grid-item key="one" slot="one">
+                    <view class="city"></view>
+                    <view class="text">助力</view>
+                </l-grid-item>
+                <l-grid-item key="two" slot="two">
+                    <view class="num">134</view>
+                    <view class="text">点赞</view>
+                </l-grid-item>
+                <l-grid-item key="three" slot="three">
+                    <view class="city">1648</view>
+                    <view class="text">评论</view>
+                </l-grid-item>
+            </l-grid>
+            <view class="content">
+              <text class="left-text">最新物流:</text>
+              <view class="content-right">
+                <text> 客户签收人: 【兔喜快递超市】郑集中通快递美奇孕婴旁，已签收，联系电话18071166095。 已签收 感谢使用圆通速递，期待再次为您服务 如有疑问请联系：18071166095，投诉电话：07104215110 疫情期间圆通每天对网点多次消毒，快递小哥新冠疫苗已接种，每天测量体温，佩戴口罩</text>
+                <text>2023-02-03 14:34:48</text>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="footer">
+          <l-button type="success" height="50" size="mini" shape="semicircle" plain="true">分享好友</l-button>
+            <l-button type="success" height="50" size="mini" shape="semicircle" plain="true" style="margin-left:30rpx">在线客服</l-button>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

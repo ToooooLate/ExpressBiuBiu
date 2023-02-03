@@ -1,0 +1,23 @@
+<!--pages/userInfo/userInfo.wxml-->
+<view class="container">
+  <view class="page-body">
+    <view class="page-section user">
+      <view class="head-img">
+        <l-avatar shape="circle" open-data="{{['userAvatarUrl','userNickName']}}" />
+      </view>
+      <view class="user-nick">
+        <view class="top-user">
+          <text>15107152937</text>
+          <text>大众会员  </text>
+        </view>
+        <view class="bot-user">
+          <l-gird>
+            <l-gird-item>积分：100</l-gird-item>
+            <l-gird-item>优惠券：0</l-gird-item>
+            <l-gird-item>经验值：0</l-gird-item>
+          </l-gird>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
