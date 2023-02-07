@@ -5,7 +5,57 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    
+    gridArr1:[{
+      "text": "专属寄件",
+      "iconName": "baobao",
+      "subText": "下单给专属快递员",
+      "title": "指定快递员"
+    },{
+      "text": "驿站自寄",
+      "iconName": "zulinfeiyongzhifu",
+      "subText": "去附近驿站自寄",
+      "title": ""
+    },{
+      "text": "批量寄件",
+      "iconName": "dizhi",
+      "subText": "便捷寄多个快递",
+      "title": ""
+    }],
+    gridArr2:[{
+      "text":"实名认证",
+      "iconName": "shenfenrenzheng-shenfenzheng",
+      "fuc":null
+    },{
+      "text":"驿站待取件",
+      "iconName": "dianpu",
+      "fuc":null
+    },{
+      "text":"邀请寄件记录",
+      "iconName": "yaoqing",
+      "fuc":null
+    }],
+    gridArr3:[{
+      "text":"在线客服",
+      "iconName": "kefu",
+      "fuc":null
+    },{
+      "text":"我的售后",
+      "iconName": "shouhou",
+      "fuc":null
+    },{
+      "text":"电子发票",
+      "iconName": "wodefapiao",
+      "fuc":null
+    },{
+      "text":"保价理赔",
+      "iconName": "fengkonganquandunpai",
+      "fuc":null
+    },{
+      "text":"反馈建议",
+      "iconName": "yijianfankui",
+      "fuc":null
+    }]
   },
 
   /**

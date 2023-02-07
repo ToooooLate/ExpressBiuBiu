@@ -3,21 +3,57 @@
   <view class="page-body">
     <view class="page-section user">
       <view class="head-img">
-        <l-avatar shape="circle" open-data="{{['userAvatarUrl','userNickName']}}" />
+        <l-avatar shape="circle" open-data="{{['userAvatarUrl']}}" />
       </view>
       <view class="user-nick">
         <view class="top-user">
-          <text>15107152937</text>
-          <text>大众会员  </text>
+          <text class="phonenum">15107152937</text>
+          <text class="vip">大众会员</text>
         </view>
         <view class="bot-user">
-          <l-gird>
-            <l-gird-item>积分：100</l-gird-item>
-            <l-gird-item>优惠券：0</l-gird-item>
-            <l-gird-item>经验值：0</l-gird-item>
-          </l-gird>
+            <text>积分：100</text>
+            <text>优惠券：0</text>
+            <text>经验值：0</text>
         </view>
       </view>
+    </view>
+    <view class="page-section other-fuc">
+      <l-grid l-class="grid" show-border="true" >
+        <l-grid-item l-grid-item-class="lgrid-item"  
+        wx:for="{{gridArr1}}" wx:key="index"
+        key="{{index}}" slot="{{index}}">
+          <view class="item-box">
+            <iconfont class="icon-user" name="{{item.iconName}}" size="60" />
+            <view class="text">{{item.text}}</view>
+          </view>
+        </l-grid-item>
+      </l-grid>
+    </view>
+    <view class="page-section other-fuc">
+      <text class="title">推荐工具</text>
+      <l-grid l-class="grid" row-num="4" >
+        <l-grid-item l-grid-item-class="lgrid-item"  
+        wx:for="{{gridArr2}}" wx:key="index"
+        key="{{index}}" slot="{{index}}">
+          <view class="item-box">
+            <iconfont name="{{item.iconName}}" size="60" />
+            <view class="text">{{item.text}}</view>
+          </view>
+        </l-grid-item>
+      </l-grid>
+    </view>
+    <view class="page-section other-fuc">
+      <text class="title">其他服务</text>
+      <l-grid l-class="grid" row-num="4">
+        <l-grid-item l-grid-item-class="lgrid-item"  
+        wx:for="{{gridArr3}}" wx:key="index"
+        key="{{index}}" slot="{{index}}">
+          <view class="item-box">
+            <iconfont name="{{item.iconName}}" size="60" />
+            <view class="text">{{item.text}}</view>
+          </view>
+        </l-grid-item>
+      </l-grid>
     </view>
   </view>
 </view>

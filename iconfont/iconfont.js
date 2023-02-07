@@ -1,6 +1,6 @@
 Component({
   properties: {
-    // Scan
+    // dianpu | yijianfankui | kefu | yaoqing | dizhi | baobao | wodefapiao | fengkonganquandunpai | shouhou | loading-xuanzedizhi-wodeshouhuodizhi | shenfenrenzheng-shenfenzheng | feiyongchaxun | yingyewangdian | xiaoyoujiantou | zulinfeiyongzhifu | Scan
     name: {
       type: String,
     },
