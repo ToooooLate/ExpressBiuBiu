@@ -3,7 +3,8 @@
     "pages/sendParcel/sendParcel",
     "pages/logs/logs",
     "pages/searchParcel/searchParcel",
-    "pages/userInfo/userInfo"
+    "pages/userInfo/userInfo",
+    "pages/sendPackages/sendPackages"
   ],
   "window":{
     "backgroundTextStyle":"light",

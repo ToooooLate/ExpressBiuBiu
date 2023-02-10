@@ -14,7 +14,7 @@
     </view>
     <view class="page-section page-section2">
       <l-grid l-class="grid" row-num="2" show-border="true" >
-        <l-grid-item l-grid-item-class="lgrid-item" key="one" slot="one">
+        <l-grid-item bindtap="goSendPackage" l-grid-item-class="lgrid-item" key="one" slot="one">
           <l-icon name="share" size="50" />
           <view class="text">寄快递</view>
           <view class="sub-text">预约上门取件</view>

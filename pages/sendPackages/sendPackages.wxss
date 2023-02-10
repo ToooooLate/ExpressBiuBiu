@@ -1,0 +1,161 @@
+page {
+  height: 100%;
+}
+
+.container {
+  padding: 0rpx 0;
+  height: 100%;
+}
+
+.text-gray {
+  color: gray;
+}
+
+.page-body {
+  width: 100%;
+  overflow-y: scroll;
+  padding-bottom: 240rpx;
+}
+
+.page-body .page-section {
+  margin: 20rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+}
+
+.page-body .page-section:first-child {
+  padding: 20rpx 0;
+}
+
+.page-body .page-section .address {
+  display: flex;
+  padding: 20rpx;
+  font-size: 30rpx;
+}
+
+.page-body .page-section .address:first-child {
+  border-bottom: 1rpx solid #ccc;
+}
+
+.page-body .page-section .address .icon {
+  height: 60rpx;
+  width: 60rpx;
+  margin: 20rpx;
+  margin-left: 0;
+}
+
+.page-body .page-section .address .details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-body .page-section .address .details text:first-child {
+  font-weight: bold;
+  padding-bottom: 12rpx;
+}
+
+.page-body .page-section .address .ads-book {
+  margin: 0 20rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30rpx;
+  border-left: 1rpx solid #ccc;
+  color: #ccc;
+  font-size: 24rpx;
+}
+
+.page-body .page-section .row-class {
+  display: flex;
+  justify-content: space-between;
+  font-size: 28rpx;
+  padding: 22rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.page-body .page-section .row-class:last-child {
+  border: none;
+}
+
+.page-body .footer-section {
+  position: fixed;
+  bottom: 0;
+  background: #fff;
+  padding: 30rpx;
+  height: 160rpx;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.page-body .footer-section .left-content {
+  flex: 1;
+}
+
+.page-body .footer-section .left-content radio .wx-radio-input {
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.page-body .footer-section .left-content .price-num {
+  color: #f17014;
+}
+
+.page-body .footer-section .left-content .rules {
+  font-size: 24rpx;
+}
+
+.page-body .footer-section .right-content {
+  display: flex;
+  align-items: center;
+  width: 180rpx;
+}
+
+.page-body .footer-section .right-content button {
+  background: #ccc;
+  border-radius: 60rpx;
+  border: none;
+  padding: 0rpx 60rpx;
+  font-size: 24rpx;
+  color: #fff;
+  height: 64rpx;
+  text-align: center;
+}
+
+.page-body .rules-content {
+  height: 800rpx;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-body .rules-content > view:first-child {
+  height: 40rpx;
+  padding: 16rpx 30rpx;
+}
+
+.page-body .rules-content > view.text-content {
+  font-size: 24rpx;
+  padding: 6rpx 20rpx;
+  flex: 1;
+  overflow-y: scroll;
+}
+
+.page-body .rules-content > view:last-child {
+  box-shadow: 0 -6rpx 25rpx #ccc;
+  height: 106rpx;
+  display: flex;
+  align-items: center;
+}
+
+.page-body .rules-content > view:last-child button {
+  background: #781bb6;
+  border: none;
+  border-radius: 34rpx;
+  width: 360rpx;
+  height: 68rpx;
+  font-size: 26rpx;
+  color: #fff;
+  padding: 0rpx;
+}

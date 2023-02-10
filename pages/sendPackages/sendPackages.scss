@@ -1,0 +1,141 @@
+page{
+  height: 100%;
+}
+.container{
+  padding: 0rpx 0;
+  height: 100%;
+}
+.text-gray{
+  color: gray;
+}
+.page-body{
+  width: 100%;
+  overflow-y: scroll;
+  padding-bottom: 240rpx;
+  $fontSize:30rpx;
+  .page-section{
+    margin: 20rpx;
+    background-color: #fff;
+    border-radius: 10rpx;
+    &:first-child{
+      padding: 20rpx 0;
+    }
+    .address {
+      display: flex;
+      padding: 20rpx;
+      font-size: $fontSize;
+      &:first-child{
+        border-bottom: 1rpx solid #ccc;
+      }
+      .icon{
+        height: 60rpx;
+        width: 60rpx;
+        margin: 20rpx;
+        margin-left: 0;
+      }
+      .details{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        text{
+          &:first-child{
+            font-weight: bold;
+            padding-bottom: 12rpx;
+          }
+        }
+      }
+      .ads-book{
+        margin:0 20rpx;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 30rpx;
+        border-left: 1rpx solid #ccc;
+        color:#ccc;
+        font-size: 24rpx;
+      }
+    }
+    .row-class{
+      display: flex;
+      justify-content: space-between;
+      font-size: 28rpx;
+      padding: 22rpx;
+      border-bottom: 1rpx solid #ccc;
+      &:last-child{
+        border: none;
+      }
+    }
+  }
+  .footer-section{
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    padding: 30rpx;
+    height: 160rpx;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    .left-content{
+      flex:1;
+      radio .wx-radio-input{
+        width: 30rpx;
+        height: 30rpx;
+      }
+      .price-num{
+        color: rgb(241, 112, 20);
+      }
+      .rules{
+        font-size: 24rpx;
+      }
+    }
+    .right-content{
+      display: flex;
+      align-items: center;
+      width: 180rpx;
+      button{
+        background: #ccc;
+        border-radius: 60rpx;
+        border: none;
+        padding: 0rpx 60rpx;
+        font-size: 24rpx;
+        color: #fff;
+        height: 64rpx;
+        text-align: center;
+      }
+    }
+  }
+  .rules-content{
+    height: 800rpx;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    &>view{
+      &:first-child{
+        height: 40rpx;
+        padding: 16rpx 30rpx;
+      }
+      &.text-content{
+        font-size: 24rpx;
+        padding:6rpx 20rpx;
+        flex: 1;
+        overflow-y:scroll;
+      }
+      &:last-child{
+        box-shadow:  0 -6rpx 25rpx #ccc;
+        height: 106rpx;
+        display: flex;
+        align-items: center;
+        button{
+          background: rgb(120, 27, 182);
+          border: none;
+          border-radius: 34rpx;
+          width: 360rpx;
+          height: 68rpx;
+          font-size: 26rpx;
+          color: #fff;
+          padding: 0rpx;
+        }
+      }
+    }
+  }
+}

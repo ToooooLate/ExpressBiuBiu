@@ -107,5 +107,11 @@ Page({
    */
   onShareAppMessage() {
 
-  }
+  },
+  goSendPackage(){
+    wx.navigateTo({
+        url: '../sendPackages/sendPackages',
+    })
+  },
+  
 })
