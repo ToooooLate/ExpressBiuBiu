@@ -65,6 +65,22 @@ page{
         border: none;
       }
     }
+    .to-service{
+      .none-service{
+        display: flex;
+        align-items: center;
+        height: 180rpx;
+        margin:20rpx;
+        padding: 30rpx;
+        color: #fff;
+        font-size: 32rpx;
+        background: rgb(189, 161, 189);
+        border-radius: 30rpx;
+      }
+      .row-class{
+        border-top: 1rpx solid #ddd;
+      }
+    }
   }
   .footer-section{
     position: fixed;

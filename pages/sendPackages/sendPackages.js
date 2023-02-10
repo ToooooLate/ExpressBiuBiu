@@ -13,7 +13,7 @@ Page({
     "receiveAddress":"请填写收件人地址",
     "rulesAccept": false,
     "rulesDisable": true,
-    "rulesShow": false,
+    "rulesShow": false
   },
 
   /**

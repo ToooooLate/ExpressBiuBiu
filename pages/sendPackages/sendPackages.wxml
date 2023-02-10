@@ -44,8 +44,19 @@
           </view>
         </l-tabpanel>
         <l-tabpanel tab="去服务点寄" key="two" slot="two">
-          <view class="tab-content">
-
+          <view class="tab-content to-service">
+            <l-tabs bind:linchage="changeSend" equal-width="{{false}}">
+              <l-tabpanel tab="妈妈驿站" key="Sone" slot="Sone">
+                <text class="none-service">附近暂无驿站</text>
+              </l-tabpanel>
+              <l-tabpanel tab="蜂巢柜" key="Stwo" slot="Stwo">
+                <text class="none-service">附近没有服务点，请使用上门取件服务哦！</text>
+              </l-tabpanel>
+            </l-tabs>
+            <view class="tab-content row-class">
+              <text>物品信息</text>
+              <text>生活用品/1kg ></text>
+            </view>
           </view>
         </l-tabpanel>
       </l-tabs>

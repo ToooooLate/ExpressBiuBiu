@@ -19,7 +19,7 @@
           <view class="text">寄快递</view>
           <view class="sub-text">预约上门取件</view>
         </l-grid-item>
-        <l-grid-item l-grid-item-class="lgrid-item" key="two" slot="two">
+        <l-grid-item bindtap="scanCode" l-grid-item-class="lgrid-item" key="two" slot="two">
           <l-icon name="scan" size="50" />
           <view class="text">扫码寄件</view>
           <view class="sub-text">扫二维码下单</view>

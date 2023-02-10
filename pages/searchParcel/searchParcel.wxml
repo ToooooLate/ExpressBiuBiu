@@ -21,7 +21,7 @@
           <text>运单号 Biu76532101342845</text>
           <iconfont style="display: inline-block;vertical-align:middle;margin-left: 10rpx;" name="Scan" size="40" />  
         </view>
-        <view class="item-content">
+        <view class="item-content" bindtap="openMap">
           <view class="content-box">
             <l-grid>
                 <l-grid-item key="one" slot="one">

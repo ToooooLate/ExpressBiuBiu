@@ -78,6 +78,22 @@ page {
   border: none;
 }
 
+.page-body .page-section .to-service .none-service {
+  display: flex;
+  align-items: center;
+  height: 180rpx;
+  margin: 20rpx;
+  padding: 30rpx;
+  color: #fff;
+  font-size: 32rpx;
+  background: #bda1bd;
+  border-radius: 30rpx;
+}
+
+.page-body .page-section .to-service .row-class {
+  border-top: 1rpx solid #ddd;
+}
+
 .page-body .footer-section {
   position: fixed;
   bottom: 0;

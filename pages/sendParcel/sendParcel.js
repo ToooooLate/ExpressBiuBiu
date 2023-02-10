@@ -113,5 +113,14 @@ Page({
         url: '../sendPackages/sendPackages',
     })
   },
+
+  scanCode(){
+    console.log('111')
+    wx.scanCode({
+      success (res) {
+        console.log(res)
+      }
+    })
+  }
   
 })

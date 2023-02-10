@@ -1,11 +1,30 @@
-// pages/searchParcel/searchParcel.js
+// pages/packagesMap/packagesMap.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    "latitude": "39.92",
+    "longitude": "116.46",
+    markers:[{
+      id: 1,
+      latitude: 39.92,
+      longitude: 116.46,
+      iconPath: '/asset/img/location.png',
+      callout: {
+        content: 'BiuBiu',
+        color: '#ff0000',
+        fontSize: 14,
+        borderWidth: 2,
+        borderRadius: 10,
+        borderColor: '#000000',
+        bgColor: '#fff',
+        padding: 5,
+        display: 'ALWAYS',
+        textAlign: 'center'
+      },
+    }]
   },
 
   /**
@@ -62,10 +81,5 @@ Page({
    */
   onShareAppMessage() {
 
-  },
-  openMap(){
-    wx.navigateTo({
-      url: '/pages/packagesMap/packagesMap',
-    })
   }
 })
